@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>F1 2026 Explorer</title>
+<script>/*PLOTLY*/</script>
+<style>
+  :root {
+    --bg: #F6F7F9; --card: #FFFFFF; --ink: #22262B; --mute: #6B7280;
+    --line: #E5E7EB; --accent: #0072B2; --gray: #BBBBBB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+      sans-serif;
+  }
+  header { padding: 28px 32px 8px; max-width: 1200px; margin: 0 auto; }
+  h1 { margin: 0; font-size: 28px; }
+  .sub { color: var(--mute); margin-top: 4px; }
+  .kpis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    max-width: 1200px; margin: 16px auto 0; padding: 0 32px;
+  }
+  .kpi {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 12px 16px;
+  }
+  .kpi b { display: block; font-size: 24px; }
+  .kpi span { color: var(--mute); font-size: 13px; }
+  main { max-width: 1200px; margin: 0 auto; padding: 16px 32px 40px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 18px 20px; margin-top: 16px;
+  }
+  .card h2 { margin: 0 0 2px; font-size: 18px; }
+  .tag {
+    display: inline-block; font-size: 12px; color: var(--accent);
+    background: #E8F1F8; border-radius: 99px; padding: 2px 10px;
+    margin-left: 8px; vertical-align: middle;
+  }
+  .hint { color: var(--mute); font-size: 13px; margin: 0 0 10px; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .grow { flex: 1 1 600px; min-width: 0; }
+  .side {
+    flex: 0 1 280px; border-left: 1px solid var(--line);
+    padding-left: 16px; font-size: 14px;
+  }
+  .side h3 { margin: 4px 0 6px; font-size: 16px; }
+  .side ol { padding-left: 18px; margin: 6px 0; }
+  .controls {
+    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+    margin-bottom: 8px; font-size: 14px;
+  }
+  select, button {
+    font: inherit; padding: 6px 10px; border-radius: 8px;
+    border: 1px solid var(--line); background: #fff; cursor: pointer;
+  }
+  button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  footer { color: var(--mute); font-size: 12px; text-align: center;
+    padding-bottom: 24px; }
+  @media (max-width: 760px) {
+    .kpis { grid-template-columns: repeat(2, 1fr); padding: 0 16px; }
+    header, main { padding-left: 16px; padding-right: 16px; }
+    .side { border-left: 0; padding-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>F1 2026: the season so far</h1>
+  <div class="sub">Group 6 &middot; DATA 230 &middot; Lectures 4 and 5
+    &middot; 15 of 23 races, through Azerbaijan (9/26)</div>
+</header>
+<div class="kpis" id="kpis"></div>
+
+<main>
+  <section class="card">
+    <h2>Where the season has been<span class="tag">5.5 geospatial</span></h2>
+    <p class="hint">Dot color = winning team. Hollow = still to come.
+      Click a circuit to see its podium.</p>
+    <div class="row">
+      <div class="grow"><div id="map" style="height:430px"></div></div>
+      <div class="side" id="podium">
+        <h3>Pick a race</h3>
+        <div class="hint">Click any dot on the map.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Pick a team<span class="tag">4.1 distinguish</span>
+      <span class="tag">4.3 highlight</span></h2>
+    <p class="hint">Highlight one team and gray the rest, or switch to
+      the official colors and try to tell the blues apart.</p>
+    <div class="controls">
+      <label>Team <select id="team"></select></label>
+      <button id="official">Official team colors</button>
+    </div>
+    <div id="points" style="height:420px"></div>
+  </section>
+
+  <section class="card">
+    <h2>Every result, every race<span class="tag">4.2 represent values</span></h2>
+    <p class="hint">Dark = better finish. Gray = did not finish, blank =
+      not entered. Compare with the rainbow scale.</p>
+    <div class="controls">
+      <button id="seq" class="on">Sequential</button>
+      <button id="jet">Rainbow</button>
+    </div>
+    <div id="heat" style="height:620px"></div>
+  </section>
+</main>
+<footer>Data: F1DB v2026.15.1 (CC BY 4.0). Colors: Okabe-Ito.
+  Built by Group 6: Tara, Eliza, Naman, Steven.</footer>
+
+<script>
+const D = /*DATA*/null;
+const OI = { Mercedes: "#009E73", Ferrari: "#D55E00",
+             McLaren: "#E69F00", "Red Bull": "#0072B2" };
+const OTHER = "#56B4E9";  // highlight color for a non top 4 team
+const GRAY = "#BBBBBB";
+const cfg = { displayModeBar: false, responsive: true,
+              scrollZoom: false };
+const font = { family: "-apple-system, Segoe UI, Roboto, Arial",
+               size: 13, color: "#22262B" };
+const rounds = D.abbr.map((_, i) => i + 1);
+
+// KPIs
+const lead = D.drivers[0];
+const wins = D.cal.filter(r => r.winTeam === "Mercedes").length;
+const kpis = [
+  [D.driverName[lead], "championship leader"],
+  [D.teamPts[D.teams[0]].at(-1) + " pts", D.teams[0] + ", top team"],
+  [wins + " of " + D.last, "races won by Mercedes"],
+  [(D.cal.length - D.last) + " races", "left, none in Europe"],
+];
+document.getElementById("kpis").innerHTML = kpis.map(
+  ([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`
+).join("");
+
+// Map
+function drawMap() {
+  const groups = [...Object.keys(OI), "Upcoming"];
+  const traces = groups.map(g => {
+    const rows = D.cal.filter(r =>
+      g === "Upcoming" ? !r.raced : r.winTeam === g);
+    const up = g === "Upcoming";
+    return {
+      type: "scattergeo", name: g, mode: "markers",
+      lat: rows.map(r => r.lat), lon: rows.map(r => r.lon),
+      customdata: rows.map(r => r.round),
+      text: rows.map(r => `${r.round}. ${r.gp}<br>${r.circuit}<br>` +
+        (r.raced ? "Won by " + r.winner : "Upcoming, " + r.date)),
+      hoverinfo: "text",
+      marker: { size: 12, color: up ? "#fff" : OI[g],
+        line: { width: 2, color: up ? "#888" : "#fff" } },
+    };
+  }).filter(t => t.lat.length);
+  Plotly.newPlot("map", traces, {
+    geo: { projection: { type: "robinson" }, showcountries: true,
+      countrycolor: "#DDD", landcolor: "#F2F2F2", showframe: false,
+      coastlinecolor: "#CCC" },
+    margin: { l: 0, r: 0, t: 0, b: 0 }, font,
+    legend: { orientation: "h", y: -0.02 },
+  }, cfg);
+  document.getElementById("map").on("plotly_click", ev => {
+    const r = D.cal.find(x => x.round === ev.points[0].customdata);
+    const body = r.raced
+      ? "<ol>" + r.podium.map(p => `<li>${p.replace(/^P\d /, "")}</li>`)
+          .join("") + "</ol>"
+      : `<div class="hint">Upcoming on ${r.date}</div>`;
+    document.getElementById("podium").innerHTML =
+      `<h3>${r.round}. ${r.gp} GP</h3><div class="hint">${r.circuit},
+       ${r.country}</div>${body}`;
+  });
+}
+
+// Team points
+let pick = "Mercedes", official = false;
+function drawPoints() {
+  const order = [...D.teams].reverse();
+  const traces = order.map(t => {
+    const on = t === pick;
+    let color = on ? (OI[t] || OTHER) : GRAY;
+    if (official) color = D.official[t];
+    return { x: rounds, y: D.teamPts[t], name: t, mode: "lines",
+      line: { color, width: official ? 2.4 : on ? 4 : 1.5 },
+      hovertemplate: `${t}: %{y} pts after round %{x}<extra></extra>`,
+      showlegend: official };
+  });
+  const ann = official ? [] : [{
+    x: D.last, y: D.teamPts[pick].at(-1), xanchor: "left",
+    text: ` <b>${pick}</b> ${D.teamPts[pick].at(-1)}`, showarrow: false,
+    font: { color: OI[pick] || OTHER, size: 14 } }];
+  Plotly.react("points", traces, {
+    font, margin: { l: 50, r: 120, t: 10, b: 40 },
+    xaxis: { title: "Round", tickvals: rounds, ticktext: D.abbr },
+    yaxis: { title: "Team points (cumulative)", gridcolor: "#EEE" },
+    annotations: ann,
+    legend: { font: { size: 11 }, traceorder: "reversed" },
+  }, cfg);
+}
+const sel = document.getElementById("team");
+sel.innerHTML = D.teams.map(t => `<option>${t}</option>`).join("");
+sel.onchange = e => { pick = e.target.value; official = false;
+  offBtn.classList.remove("on"); drawPoints(); };
+const offBtn = document.getElementById("official");
+offBtn.onclick = () => { official = !official;
+  offBtn.classList.toggle("on", official); drawPoints(); };
+
+// Heatmap
+let scale = "seq";
+function drawHeat() {
+  const z = D.finish;
+  const dnfZ = D.status.map(row => row.map(s =>
+    ["DNF", "DNS", "NC"].includes(s) ? 1 : null));
+  const txt = D.status.map((row, i) => row.map((s, j) =>
+    `${D.driverName[D.drivers[i]]}, ${D.abbr[j]}: ` +
+    (s === "Finished" ? "P" + z[i][j] : s)));
+  const colorscale = scale === "seq"
+    ? [[0, "#08306B"], [0.5, "#4292C6"], [1, "#F7FBFF"]]
+    : "Jet";
+  Plotly.react("heat", [
+    { type: "heatmap", z, x: D.abbr, y: D.drivers, zmin: 1, zmax: 22,
+      colorscale, reversescale: scale !== "seq", text: txt,
+      hoverinfo: "text", xgap: 1, ygap: 1,
+      colorbar: { title: "Finish", tickvals: [1, 5, 10, 15, 20],
+        len: 0.6 } },
+    { type: "heatmap", z: dnfZ, x: D.abbr, y: D.drivers,
+      colorscale: [[0, "#D9D9D9"], [1, "#D9D9D9"]], showscale: false,
+      text: txt, hoverinfo: "text", xgap: 1, ygap: 1 },
+  ], {
+    font, margin: { l: 50, r: 20, t: 10, b: 40 },
+    yaxis: { autorange: "reversed", tickfont: { size: 11 } },
+    xaxis: { side: "bottom" }, plot_bgcolor: "#fff",
+  }, cfg);
+}
+const seqBtn = document.getElementById("seq");
+const jetBtn = document.getElementById("jet");
+seqBtn.onclick = () => { scale = "seq"; seqBtn.classList.add("on");
+  jetBtn.classList.remove("on"); drawHeat(); };
+jetBtn.onclick = () => { scale = "jet"; jetBtn.classList.add("on");
+  seqBtn.classList.remove("on"); drawHeat(); };
+
+drawMap(); drawPoints(); drawHeat();
+</script>
+</body>
+</html>

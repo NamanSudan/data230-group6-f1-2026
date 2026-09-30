@@ -1,0 +1,334 @@
+round,driver,code,position,points,team
+1,George Russell,RUS,1.0,25.0,Mercedes
+1,Kimi Antonelli,ANT,2.0,18.0,Mercedes
+1,Charles Leclerc,LEC,3.0,15.0,Ferrari
+1,Lewis Hamilton,HAM,4.0,12.0,Ferrari
+1,Lando Norris,NOR,5.0,10.0,McLaren
+1,Max Verstappen,VER,6.0,8.0,Red Bull
+1,Oliver Bearman,BEA,7.0,6.0,Haas
+1,Arvid Lindblad,LIN,8.0,4.0,Racing Bulls
+1,Gabriel Bortoleto,BOR,9.0,2.0,Audi
+1,Pierre Gasly,GAS,10.0,1.0,Alpine
+1,Esteban Ocon,OCO,11.0,0.0,Haas
+1,Alexander Albon,ALB,12.0,0.0,Williams
+1,Liam Lawson,LAW,13.0,0.0,Racing Bulls
+1,Franco Colapinto,COL,14.0,0.0,Alpine
+1,Carlos Sainz Jr.,SAI,15.0,0.0,Williams
+1,Sergio Pérez,PER,16.0,0.0,Cadillac
+1,Isack Hadjar,HAD,17.0,0.0,Red Bull
+1,Oscar Piastri,PIA,18.0,0.0,McLaren
+1,Nico Hülkenberg,HUL,19.0,0.0,Audi
+1,Fernando Alonso,ALO,20.0,0.0,Aston Martin
+1,Valtteri Bottas,BOT,21.0,0.0,Cadillac
+2,George Russell,RUS,1.0,51.0,Mercedes
+2,Kimi Antonelli,ANT,2.0,47.0,Mercedes
+2,Charles Leclerc,LEC,3.0,34.0,Ferrari
+2,Lewis Hamilton,HAM,4.0,33.0,Ferrari
+2,Oliver Bearman,BEA,5.0,17.0,Haas
+2,Lando Norris,NOR,6.0,15.0,McLaren
+2,Pierre Gasly,GAS,7.0,9.0,Alpine
+2,Max Verstappen,VER,8.0,8.0,Red Bull
+2,Liam Lawson,LAW,9.0,8.0,Racing Bulls
+2,Arvid Lindblad,LIN,10.0,4.0,Racing Bulls
+2,Isack Hadjar,HAD,11.0,4.0,Red Bull
+2,Oscar Piastri,PIA,12.0,3.0,McLaren
+2,Carlos Sainz Jr.,SAI,13.0,2.0,Williams
+2,Gabriel Bortoleto,BOR,14.0,2.0,Audi
+2,Franco Colapinto,COL,15.0,1.0,Alpine
+2,Esteban Ocon,OCO,16.0,0.0,Haas
+2,Nico Hülkenberg,HUL,17.0,0.0,Audi
+2,Alexander Albon,ALB,18.0,0.0,Williams
+2,Valtteri Bottas,BOT,19.0,0.0,Cadillac
+2,Sergio Pérez,PER,20.0,0.0,Cadillac
+2,Fernando Alonso,ALO,21.0,0.0,Aston Martin
+2,Lance Stroll,STR,22.0,0.0,Aston Martin
+3,Kimi Antonelli,ANT,1.0,72.0,Mercedes
+3,George Russell,RUS,2.0,63.0,Mercedes
+3,Charles Leclerc,LEC,3.0,49.0,Ferrari
+3,Lewis Hamilton,HAM,4.0,41.0,Ferrari
+3,Lando Norris,NOR,5.0,25.0,McLaren
+3,Oscar Piastri,PIA,6.0,21.0,McLaren
+3,Oliver Bearman,BEA,7.0,17.0,Haas
+3,Pierre Gasly,GAS,8.0,15.0,Alpine
+3,Max Verstappen,VER,9.0,12.0,Red Bull
+3,Liam Lawson,LAW,10.0,10.0,Racing Bulls
+3,Arvid Lindblad,LIN,11.0,4.0,Racing Bulls
+3,Isack Hadjar,HAD,12.0,4.0,Red Bull
+3,Gabriel Bortoleto,BOR,13.0,2.0,Audi
+3,Carlos Sainz Jr.,SAI,14.0,2.0,Williams
+3,Esteban Ocon,OCO,15.0,1.0,Haas
+3,Franco Colapinto,COL,16.0,1.0,Alpine
+3,Nico Hülkenberg,HUL,17.0,0.0,Audi
+3,Alexander Albon,ALB,18.0,0.0,Williams
+3,Valtteri Bottas,BOT,19.0,0.0,Cadillac
+3,Sergio Pérez,PER,20.0,0.0,Cadillac
+3,Fernando Alonso,ALO,21.0,0.0,Aston Martin
+3,Lance Stroll,STR,22.0,0.0,Aston Martin
+4,Kimi Antonelli,ANT,1.0,100.0,Mercedes
+4,George Russell,RUS,2.0,80.0,Mercedes
+4,Charles Leclerc,LEC,3.0,59.0,Ferrari
+4,Lando Norris,NOR,4.0,51.0,McLaren
+4,Lewis Hamilton,HAM,5.0,51.0,Ferrari
+4,Oscar Piastri,PIA,6.0,43.0,McLaren
+4,Max Verstappen,VER,7.0,26.0,Red Bull
+4,Oliver Bearman,BEA,8.0,17.0,Haas
+4,Pierre Gasly,GAS,9.0,16.0,Alpine
+4,Liam Lawson,LAW,10.0,10.0,Racing Bulls
+4,Franco Colapinto,COL,11.0,7.0,Alpine
+4,Arvid Lindblad,LIN,12.0,4.0,Racing Bulls
+4,Isack Hadjar,HAD,13.0,4.0,Red Bull
+4,Carlos Sainz Jr.,SAI,14.0,4.0,Williams
+4,Gabriel Bortoleto,BOR,15.0,2.0,Audi
+4,Esteban Ocon,OCO,16.0,1.0,Haas
+4,Alexander Albon,ALB,17.0,1.0,Williams
+4,Nico Hülkenberg,HUL,18.0,0.0,Audi
+4,Valtteri Bottas,BOT,19.0,0.0,Cadillac
+4,Sergio Pérez,PER,20.0,0.0,Cadillac
+4,Fernando Alonso,ALO,21.0,0.0,Aston Martin
+4,Lance Stroll,STR,22.0,0.0,Aston Martin
+5,Kimi Antonelli,ANT,1.0,131.0,Mercedes
+5,George Russell,RUS,2.0,88.0,Mercedes
+5,Charles Leclerc,LEC,3.0,75.0,Ferrari
+5,Lewis Hamilton,HAM,4.0,72.0,Ferrari
+5,Lando Norris,NOR,5.0,58.0,McLaren
+5,Oscar Piastri,PIA,6.0,48.0,McLaren
+5,Max Verstappen,VER,7.0,43.0,Red Bull
+5,Pierre Gasly,GAS,8.0,20.0,Alpine
+5,Oliver Bearman,BEA,9.0,18.0,Haas
+5,Liam Lawson,LAW,10.0,16.0,Racing Bulls
+5,Franco Colapinto,COL,11.0,15.0,Alpine
+5,Isack Hadjar,HAD,12.0,14.0,Red Bull
+5,Carlos Sainz Jr.,SAI,13.0,6.0,Williams
+5,Arvid Lindblad,LIN,14.0,5.0,Racing Bulls
+5,Gabriel Bortoleto,BOR,15.0,2.0,Audi
+5,Esteban Ocon,OCO,16.0,1.0,Haas
+5,Alexander Albon,ALB,17.0,1.0,Williams
+5,Nico Hülkenberg,HUL,18.0,0.0,Audi
+5,Valtteri Bottas,BOT,19.0,0.0,Cadillac
+5,Sergio Pérez,PER,20.0,0.0,Cadillac
+5,Lance Stroll,STR,21.0,0.0,Aston Martin
+5,Fernando Alonso,ALO,22.0,0.0,Aston Martin
+6,Kimi Antonelli,ANT,1.0,156.0,Mercedes
+6,Lewis Hamilton,HAM,2.0,90.0,Ferrari
+6,George Russell,RUS,3.0,88.0,Mercedes
+6,Charles Leclerc,LEC,4.0,75.0,Ferrari
+6,Oscar Piastri,PIA,5.0,60.0,McLaren
+6,Lando Norris,NOR,6.0,58.0,McLaren
+6,Max Verstappen,VER,7.0,43.0,Red Bull
+6,Isack Hadjar,HAD,8.0,29.0,Red Bull
+6,Liam Lawson,LAW,9.0,26.0,Racing Bulls
+6,Pierre Gasly,GAS,10.0,26.0,Alpine
+6,Oliver Bearman,BEA,11.0,18.0,Haas
+6,Franco Colapinto,COL,12.0,15.0,Alpine
+6,Arvid Lindblad,LIN,13.0,13.0,Racing Bulls
+6,Carlos Sainz Jr.,SAI,14.0,6.0,Williams
+6,Alexander Albon,ALB,15.0,5.0,Williams
+6,Esteban Ocon,OCO,16.0,3.0,Haas
+6,Gabriel Bortoleto,BOR,17.0,2.0,Audi
+6,Fernando Alonso,ALO,18.0,1.0,Aston Martin
+6,Nico Hülkenberg,HUL,19.0,0.0,Audi
+6,Valtteri Bottas,BOT,20.0,0.0,Cadillac
+6,Sergio Pérez,PER,21.0,0.0,Cadillac
+6,Lance Stroll,STR,22.0,0.0,Aston Martin
+7,Kimi Antonelli,ANT,1.0,156.0,Mercedes
+7,Lewis Hamilton,HAM,2.0,115.0,Ferrari
+7,George Russell,RUS,3.0,106.0,Mercedes
+7,Charles Leclerc,LEC,4.0,75.0,Ferrari
+7,Lando Norris,NOR,5.0,73.0,McLaren
+7,Oscar Piastri,PIA,6.0,70.0,McLaren
+7,Max Verstappen,VER,7.0,55.0,Red Bull
+7,Isack Hadjar,HAD,8.0,37.0,Red Bull
+7,Pierre Gasly,GAS,9.0,32.0,Alpine
+7,Liam Lawson,LAW,10.0,30.0,Racing Bulls
+7,Oliver Bearman,BEA,11.0,18.0,Haas
+7,Franco Colapinto,COL,12.0,16.0,Alpine
+7,Arvid Lindblad,LIN,13.0,15.0,Racing Bulls
+7,Carlos Sainz Jr.,SAI,14.0,6.0,Williams
+7,Alexander Albon,ALB,15.0,5.0,Williams
+7,Esteban Ocon,OCO,16.0,3.0,Haas
+7,Gabriel Bortoleto,BOR,17.0,2.0,Audi
+7,Fernando Alonso,ALO,18.0,1.0,Aston Martin
+7,Nico Hülkenberg,HUL,19.0,0.0,Audi
+7,Valtteri Bottas,BOT,20.0,0.0,Cadillac
+7,Sergio Pérez,PER,21.0,0.0,Cadillac
+7,Lance Stroll,STR,22.0,0.0,Aston Martin
+8,Kimi Antonelli,ANT,1.0,171.0,Mercedes
+8,George Russell,RUS,2.0,131.0,Mercedes
+8,Lewis Hamilton,HAM,3.0,125.0,Ferrari
+8,Oscar Piastri,PIA,4.0,82.0,McLaren
+8,Lando Norris,NOR,5.0,79.0,McLaren
+8,Charles Leclerc,LEC,6.0,79.0,Ferrari
+8,Max Verstappen,VER,7.0,73.0,Red Bull
+8,Isack Hadjar,HAD,8.0,45.0,Red Bull
+8,Liam Lawson,LAW,9.0,32.0,Racing Bulls
+8,Pierre Gasly,GAS,10.0,32.0,Alpine
+8,Oliver Bearman,BEA,11.0,18.0,Haas
+8,Franco Colapinto,COL,12.0,16.0,Alpine
+8,Arvid Lindblad,LIN,13.0,16.0,Racing Bulls
+8,Carlos Sainz Jr.,SAI,14.0,6.0,Williams
+8,Alexander Albon,ALB,15.0,5.0,Williams
+8,Esteban Ocon,OCO,16.0,3.0,Haas
+8,Gabriel Bortoleto,BOR,17.0,2.0,Audi
+8,Fernando Alonso,ALO,18.0,1.0,Aston Martin
+8,Nico Hülkenberg,HUL,19.0,0.0,Audi
+8,Valtteri Bottas,BOT,20.0,0.0,Cadillac
+8,Sergio Pérez,PER,21.0,0.0,Cadillac
+8,Lance Stroll,STR,22.0,0.0,Aston Martin
+9,Kimi Antonelli,ANT,1.0,179.0,Mercedes
+9,George Russell,RUS,2.0,154.0,Mercedes
+9,Lewis Hamilton,HAM,3.0,147.0,Ferrari
+9,Charles Leclerc,LEC,4.0,108.0,Ferrari
+9,Lando Norris,NOR,5.0,97.0,McLaren
+9,Oscar Piastri,PIA,6.0,84.0,McLaren
+9,Max Verstappen,VER,7.0,76.0,Red Bull
+9,Isack Hadjar,HAD,8.0,55.0,Red Bull
+9,Liam Lawson,LAW,9.0,41.0,Racing Bulls
+9,Pierre Gasly,GAS,10.0,33.0,Alpine
+9,Arvid Lindblad,LIN,11.0,22.0,Racing Bulls
+9,Oliver Bearman,BEA,12.0,18.0,Haas
+9,Franco Colapinto,COL,13.0,18.0,Alpine
+9,Gabriel Bortoleto,BOR,14.0,6.0,Audi
+9,Carlos Sainz Jr.,SAI,15.0,6.0,Williams
+9,Alexander Albon,ALB,16.0,5.0,Williams
+9,Esteban Ocon,OCO,17.0,3.0,Haas
+9,Fernando Alonso,ALO,18.0,1.0,Aston Martin
+9,Nico Hülkenberg,HUL,19.0,0.0,Audi
+9,Valtteri Bottas,BOT,20.0,0.0,Cadillac
+9,Sergio Pérez,PER,21.0,0.0,Cadillac
+9,Lance Stroll,STR,22.0,0.0,Aston Martin
+10,Kimi Antonelli,ANT,1.0,204.0,Mercedes
+10,Lewis Hamilton,HAM,2.0,159.0,Ferrari
+10,George Russell,RUS,3.0,154.0,Mercedes
+10,Charles Leclerc,LEC,4.0,126.0,Ferrari
+10,Lando Norris,NOR,5.0,103.0,McLaren
+10,Oscar Piastri,PIA,6.0,94.0,McLaren
+10,Max Verstappen,VER,7.0,91.0,Red Bull
+10,Isack Hadjar,HAD,8.0,63.0,Red Bull
+10,Liam Lawson,LAW,9.0,41.0,Racing Bulls
+10,Pierre Gasly,GAS,10.0,33.0,Alpine
+10,Arvid Lindblad,LIN,11.0,24.0,Racing Bulls
+10,Franco Colapinto,COL,12.0,19.0,Alpine
+10,Oliver Bearman,BEA,13.0,18.0,Haas
+10,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+10,Carlos Sainz Jr.,SAI,15.0,6.0,Williams
+10,Alexander Albon,ALB,16.0,5.0,Williams
+10,Esteban Ocon,OCO,17.0,3.0,Haas
+10,Fernando Alonso,ALO,18.0,1.0,Aston Martin
+10,Nico Hülkenberg,HUL,19.0,0.0,Audi
+10,Valtteri Bottas,BOT,20.0,0.0,Cadillac
+10,Sergio Pérez,PER,21.0,0.0,Cadillac
+10,Lance Stroll,STR,22.0,0.0,Aston Martin
+11,Kimi Antonelli,ANT,1.0,219.0,Mercedes
+11,Lewis Hamilton,HAM,2.0,169.0,Ferrari
+11,George Russell,RUS,3.0,160.0,Mercedes
+11,Charles Leclerc,LEC,4.0,138.0,Ferrari
+11,Lando Norris,NOR,5.0,128.0,McLaren
+11,Max Verstappen,VER,6.0,109.0,Red Bull
+11,Oscar Piastri,PIA,7.0,94.0,McLaren
+11,Isack Hadjar,HAD,8.0,71.0,Red Bull
+11,Liam Lawson,LAW,9.0,45.0,Racing Bulls
+11,Pierre Gasly,GAS,10.0,33.0,Alpine
+11,Arvid Lindblad,LIN,11.0,25.0,Racing Bulls
+11,Franco Colapinto,COL,12.0,19.0,Alpine
+11,Oliver Bearman,BEA,13.0,18.0,Haas
+11,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+11,Carlos Sainz Jr.,SAI,15.0,6.0,Williams
+11,Alexander Albon,ALB,16.0,5.0,Williams
+11,Esteban Ocon,OCO,17.0,3.0,Haas
+11,Nico Hülkenberg,HUL,18.0,2.0,Audi
+11,Fernando Alonso,ALO,19.0,1.0,Aston Martin
+11,Lance Stroll,STR,20.0,0.0,Aston Martin
+11,Valtteri Bottas,BOT,21.0,0.0,Cadillac
+11,Sergio Pérez,PER,22.0,0.0,Cadillac
+12,Kimi Antonelli,ANT,1.0,242.0,Mercedes
+12,George Russell,RUS,2.0,183.0,Mercedes
+12,Lewis Hamilton,HAM,3.0,183.0,Ferrari
+12,Lando Norris,NOR,4.0,159.0,McLaren
+12,Charles Leclerc,LEC,5.0,155.0,Ferrari
+12,Max Verstappen,VER,6.0,112.0,Red Bull
+12,Oscar Piastri,PIA,7.0,106.0,McLaren
+12,Isack Hadjar,HAD,8.0,71.0,Red Bull
+12,Liam Lawson,LAW,9.0,51.0,Racing Bulls
+12,Pierre Gasly,GAS,10.0,35.0,Alpine
+12,Arvid Lindblad,LIN,11.0,25.0,Racing Bulls
+12,Franco Colapinto,COL,12.0,19.0,Alpine
+12,Oliver Bearman,BEA,13.0,18.0,Haas
+12,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+12,Nico Hülkenberg,HUL,15.0,6.0,Audi
+12,Carlos Sainz Jr.,SAI,16.0,6.0,Williams
+12,Alexander Albon,ALB,17.0,5.0,Williams
+12,Esteban Ocon,OCO,18.0,3.0,Haas
+12,Fernando Alonso,ALO,19.0,3.0,Aston Martin
+12,Yuki Tsunoda,TSU,20.0,0.0,Racing Bulls
+12,Lance Stroll,STR,21.0,0.0,Aston Martin
+12,Valtteri Bottas,BOT,22.0,0.0,Cadillac
+12,Sergio Pérez,PER,23.0,0.0,Cadillac
+13,Kimi Antonelli,ANT,1.0,267.0,Mercedes
+13,George Russell,RUS,2.0,201.0,Mercedes
+13,Lewis Hamilton,HAM,3.0,191.0,Ferrari
+13,Lando Norris,NOR,4.0,171.0,McLaren
+13,Charles Leclerc,LEC,5.0,155.0,Ferrari
+13,Max Verstappen,VER,6.0,127.0,Red Bull
+13,Oscar Piastri,PIA,7.0,116.0,McLaren
+13,Isack Hadjar,HAD,8.0,71.0,Red Bull
+13,Liam Lawson,LAW,9.0,51.0,Racing Bulls
+13,Pierre Gasly,GAS,10.0,41.0,Alpine
+13,Arvid Lindblad,LIN,11.0,29.0,Racing Bulls
+13,Franco Colapinto,COL,12.0,21.0,Alpine
+13,Oliver Bearman,BEA,13.0,18.0,Haas
+13,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+13,Nico Hülkenberg,HUL,15.0,6.0,Audi
+13,Carlos Sainz Jr.,SAI,16.0,6.0,Williams
+13,Alexander Albon,ALB,17.0,5.0,Williams
+13,Esteban Ocon,OCO,18.0,3.0,Haas
+13,Fernando Alonso,ALO,19.0,3.0,Aston Martin
+13,Yuki Tsunoda,TSU,20.0,1.0,Racing Bulls
+13,Lance Stroll,STR,21.0,0.0,Aston Martin
+13,Valtteri Bottas,BOT,22.0,0.0,Cadillac
+13,Sergio Pérez,PER,23.0,0.0,Cadillac
+14,Kimi Antonelli,ANT,1.0,292.0,Mercedes
+14,George Russell,RUS,2.0,211.0,Mercedes
+14,Lewis Hamilton,HAM,3.0,191.0,Ferrari
+14,Lando Norris,NOR,4.0,186.0,McLaren
+14,Charles Leclerc,LEC,5.0,167.0,Ferrari
+14,Max Verstappen,VER,6.0,145.0,Red Bull
+14,Oscar Piastri,PIA,7.0,120.0,McLaren
+14,Isack Hadjar,HAD,8.0,71.0,Red Bull
+14,Liam Lawson,LAW,9.0,59.0,Racing Bulls
+14,Pierre Gasly,GAS,10.0,41.0,Alpine
+14,Arvid Lindblad,LIN,11.0,31.0,Racing Bulls
+14,Franco Colapinto,COL,12.0,27.0,Alpine
+14,Oliver Bearman,BEA,13.0,18.0,Haas
+14,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+14,Nico Hülkenberg,HUL,15.0,7.0,Audi
+14,Carlos Sainz Jr.,SAI,16.0,6.0,Williams
+14,Alexander Albon,ALB,17.0,5.0,Williams
+14,Esteban Ocon,OCO,18.0,3.0,Haas
+14,Fernando Alonso,ALO,19.0,3.0,Aston Martin
+14,Yuki Tsunoda,TSU,20.0,1.0,Racing Bulls
+14,Lance Stroll,STR,21.0,0.0,Aston Martin
+14,Valtteri Bottas,BOT,22.0,0.0,Cadillac
+14,Sergio Pérez,PER,23.0,0.0,Cadillac
+15,Kimi Antonelli,ANT,1.0,302.0,Mercedes
+15,George Russell,RUS,2.0,236.0,Mercedes
+15,Lewis Hamilton,HAM,3.0,199.0,Ferrari
+15,Lando Norris,NOR,4.0,186.0,McLaren
+15,Charles Leclerc,LEC,5.0,179.0,Ferrari
+15,Max Verstappen,VER,6.0,163.0,Red Bull
+15,Oscar Piastri,PIA,7.0,120.0,McLaren
+15,Isack Hadjar,HAD,8.0,86.0,Red Bull
+15,Liam Lawson,LAW,9.0,59.0,Racing Bulls
+15,Pierre Gasly,GAS,10.0,41.0,Alpine
+15,Arvid Lindblad,LIN,11.0,37.0,Racing Bulls
+15,Franco Colapinto,COL,12.0,27.0,Alpine
+15,Oliver Bearman,BEA,13.0,20.0,Haas
+15,Gabriel Bortoleto,BOR,14.0,10.0,Audi
+15,Nico Hülkenberg,HUL,15.0,7.0,Audi
+15,Esteban Ocon,OCO,16.0,7.0,Haas
+15,Carlos Sainz Jr.,SAI,17.0,7.0,Williams
+15,Alexander Albon,ALB,18.0,5.0,Williams
+15,Fernando Alonso,ALO,19.0,3.0,Aston Martin
+15,Yuki Tsunoda,TSU,20.0,1.0,Racing Bulls
+15,Lance Stroll,STR,21.0,0.0,Aston Martin
+15,Valtteri Bottas,BOT,22.0,0.0,Cadillac
+15,Sergio Pérez,PER,23.0,0.0,Cadillac

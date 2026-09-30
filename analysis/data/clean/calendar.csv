@@ -1,0 +1,24 @@
+round,gp,date,circuit,country,iso3,lat,lon,raced,winner,circuitType
+1,Australia,2026-03-08,Melbourne,Australia,AUS,-37.849722,144.968333,True,George Russell,STREET
+2,China,2026-03-15,Shanghai,China,CHN,31.338889,121.219722,True,Kimi Antonelli,RACE
+3,Japan,2026-03-29,Suzuka,Japan,JPN,34.843056,136.540556,True,Kimi Antonelli,RACE
+4,Miami,2026-05-03,Miami,United States of America,USA,25.958056,-80.238889,True,Kimi Antonelli,STREET
+5,Canada,2026-05-24,Gilles Villeneuve,Canada,CAN,45.500578,-73.522461,True,Kimi Antonelli,STREET
+6,Monaco,2026-06-07,Monaco,Monaco,MCO,43.734722,7.420556,True,Kimi Antonelli,STREET
+7,Barcelona-Catalunya,2026-06-14,Catalunya,Spain,ESP,41.57,2.261111,True,Lewis Hamilton,RACE
+8,Austria,2026-06-28,Red Bull Ring,Austria,AUT,47.219722,14.764722,True,George Russell,RACE
+9,Great Britain,2026-07-05,Silverstone,United Kingdom,GBR,52.078611,-1.016944,True,Charles Leclerc,RACE
+10,Belgium,2026-07-19,Spa-Francorchamps,Belgium,BEL,50.437222,5.971389,True,Kimi Antonelli,RACE
+11,Hungary,2026-07-26,Hungaroring,Hungary,HUN,47.582222,19.251111,True,Lando Norris,RACE
+12,Netherlands,2026-08-23,Zandvoort,Netherlands,NLD,52.388819,4.540922,True,Lando Norris,RACE
+13,Italy,2026-09-06,Monza,Italy,ITA,45.620556,9.289444,True,Kimi Antonelli,RACE
+14,Spain,2026-09-13,Madring,Spain,ESP,40.465278,-3.615278,True,Kimi Antonelli,STREET
+15,Azerbaijan,2026-09-26,Baku,Azerbaijan,AZE,40.3725,49.853333,True,George Russell,STREET
+16,Bahrain,2026-10-04,Sepang,Malaysia,MYS,2.760556,101.7375,False,,RACE
+17,Singapore,2026-10-11,Marina Bay,Singapore,SGP,1.291531,103.86385,False,,STREET
+18,United States,2026-10-25,Americas,United States of America,USA,30.132778,-97.641111,False,,RACE
+19,Mexico,2026-11-01,Hermanos Rodríguez,Mexico,MEX,19.404197,-99.088747,False,,RACE
+20,São Paulo,2026-11-08,José Carlos Pace,Brazil,BRA,-23.701111,-46.697222,False,,RACE
+21,Las Vegas,2026-11-22,Las Vegas,United States of America,USA,36.175,-115.136389,False,,STREET
+22,Qatar,2026-11-29,Lusail,Qatar,QAT,25.49,51.454167,False,,RACE
+23,Abu Dhabi,2026-12-06,Yas Marina,United Arab Emirates,ARE,24.467222,54.603056,False,,RACE

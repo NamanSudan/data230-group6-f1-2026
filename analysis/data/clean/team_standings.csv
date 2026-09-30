@@ -1,0 +1,166 @@
+round,team,position,points
+1,Mercedes,1.0,43.0
+1,Ferrari,2.0,27.0
+1,McLaren,3.0,10.0
+1,Red Bull,4.0,8.0
+1,Haas,5.0,6.0
+1,Racing Bulls,6.0,4.0
+1,Audi,7.0,2.0
+1,Alpine,8.0,1.0
+1,Williams,9.0,0.0
+1,Cadillac,10.0,0.0
+1,Aston Martin,11.0,0.0
+2,Mercedes,1.0,98.0
+2,Ferrari,2.0,67.0
+2,McLaren,3.0,18.0
+2,Haas,4.0,17.0
+2,Red Bull,5.0,12.0
+2,Racing Bulls,6.0,12.0
+2,Alpine,7.0,10.0
+2,Audi,8.0,2.0
+2,Williams,9.0,2.0
+2,Cadillac,10.0,0.0
+2,Aston Martin,11.0,0.0
+3,Mercedes,1.0,135.0
+3,Ferrari,2.0,90.0
+3,McLaren,3.0,46.0
+3,Haas,4.0,18.0
+3,Alpine,5.0,16.0
+3,Red Bull,6.0,16.0
+3,Racing Bulls,7.0,14.0
+3,Audi,8.0,2.0
+3,Williams,9.0,2.0
+3,Cadillac,10.0,0.0
+3,Aston Martin,11.0,0.0
+4,Mercedes,1.0,180.0
+4,Ferrari,2.0,110.0
+4,McLaren,3.0,94.0
+4,Red Bull,4.0,30.0
+4,Alpine,5.0,23.0
+4,Haas,6.0,18.0
+4,Racing Bulls,7.0,14.0
+4,Williams,8.0,5.0
+4,Audi,9.0,2.0
+4,Cadillac,10.0,0.0
+4,Aston Martin,11.0,0.0
+5,Mercedes,1.0,219.0
+5,Ferrari,2.0,147.0
+5,McLaren,3.0,106.0
+5,Red Bull,4.0,57.0
+5,Alpine,5.0,35.0
+5,Racing Bulls,6.0,21.0
+5,Haas,7.0,19.0
+5,Williams,8.0,7.0
+5,Audi,9.0,2.0
+5,Cadillac,10.0,0.0
+5,Aston Martin,11.0,0.0
+6,Mercedes,1.0,244.0
+6,Ferrari,2.0,165.0
+6,McLaren,3.0,118.0
+6,Red Bull,4.0,72.0
+6,Alpine,5.0,41.0
+6,Racing Bulls,6.0,39.0
+6,Haas,7.0,21.0
+6,Williams,8.0,11.0
+6,Audi,9.0,2.0
+6,Aston Martin,10.0,1.0
+6,Cadillac,11.0,0.0
+7,Mercedes,1.0,262.0
+7,Ferrari,2.0,190.0
+7,McLaren,3.0,143.0
+7,Red Bull,4.0,92.0
+7,Alpine,5.0,48.0
+7,Racing Bulls,6.0,45.0
+7,Haas,7.0,21.0
+7,Williams,8.0,11.0
+7,Audi,9.0,2.0
+7,Aston Martin,10.0,1.0
+7,Cadillac,11.0,0.0
+8,Mercedes,1.0,302.0
+8,Ferrari,2.0,204.0
+8,McLaren,3.0,161.0
+8,Red Bull,4.0,118.0
+8,Racing Bulls,5.0,48.0
+8,Alpine,6.0,48.0
+8,Haas,7.0,21.0
+8,Williams,8.0,11.0
+8,Audi,9.0,2.0
+8,Aston Martin,10.0,1.0
+8,Cadillac,11.0,0.0
+9,Mercedes,1.0,333.0
+9,Ferrari,2.0,255.0
+9,McLaren,3.0,181.0
+9,Red Bull,4.0,131.0
+9,Racing Bulls,5.0,63.0
+9,Alpine,6.0,51.0
+9,Haas,7.0,21.0
+9,Williams,8.0,11.0
+9,Audi,9.0,6.0
+9,Aston Martin,10.0,1.0
+9,Cadillac,11.0,0.0
+10,Mercedes,1.0,358.0
+10,Ferrari,2.0,285.0
+10,McLaren,3.0,197.0
+10,Red Bull,4.0,154.0
+10,Racing Bulls,5.0,65.0
+10,Alpine,6.0,52.0
+10,Haas,7.0,21.0
+10,Williams,8.0,11.0
+10,Audi,9.0,10.0
+10,Aston Martin,10.0,1.0
+10,Cadillac,11.0,0.0
+11,Mercedes,1.0,379.0
+11,Ferrari,2.0,307.0
+11,McLaren,3.0,222.0
+11,Red Bull,4.0,180.0
+11,Racing Bulls,5.0,70.0
+11,Alpine,6.0,52.0
+11,Haas,7.0,21.0
+11,Audi,8.0,12.0
+11,Williams,9.0,11.0
+11,Aston Martin,10.0,1.0
+11,Cadillac,11.0,0.0
+12,Mercedes,1.0,425.0
+12,Ferrari,2.0,338.0
+12,McLaren,3.0,265.0
+12,Red Bull,4.0,189.0
+12,Racing Bulls,5.0,70.0
+12,Alpine,6.0,54.0
+12,Haas,7.0,21.0
+12,Audi,8.0,16.0
+12,Williams,9.0,11.0
+12,Aston Martin,10.0,3.0
+12,Cadillac,11.0,0.0
+13,Mercedes,1.0,468.0
+13,Ferrari,2.0,346.0
+13,McLaren,3.0,287.0
+13,Red Bull,4.0,204.0
+13,Racing Bulls,5.0,75.0
+13,Alpine,6.0,62.0
+13,Haas,7.0,21.0
+13,Audi,8.0,16.0
+13,Williams,9.0,11.0
+13,Aston Martin,10.0,3.0
+13,Cadillac,11.0,0.0
+14,Mercedes,1.0,503.0
+14,Ferrari,2.0,358.0
+14,McLaren,3.0,306.0
+14,Red Bull,4.0,230.0
+14,Racing Bulls,5.0,77.0
+14,Alpine,6.0,68.0
+14,Haas,7.0,21.0
+14,Audi,8.0,17.0
+14,Williams,9.0,11.0
+14,Aston Martin,10.0,3.0
+14,Cadillac,11.0,0.0
+15,Mercedes,1.0,538.0
+15,Ferrari,2.0,378.0
+15,McLaren,3.0,306.0
+15,Red Bull,4.0,263.0
+15,Racing Bulls,5.0,83.0
+15,Alpine,6.0,68.0
+15,Haas,7.0,27.0
+15,Audi,8.0,17.0
+15,Williams,9.0,12.0
+15,Aston Martin,10.0,3.0
+15,Cadillac,11.0,0.0

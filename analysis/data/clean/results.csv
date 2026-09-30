@@ -1,0 +1,331 @@
+round,gp,driver,code,team,grid,finish,status,dnf_reason,points,gained,pit_stops
+1,Australia,George Russell,RUS,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+1,Australia,Kimi Antonelli,ANT,Mercedes,2.0,2.0,Finished,,18.0,0.0,1.0
+1,Australia,Charles Leclerc,LEC,Ferrari,4.0,3.0,Finished,,15.0,1.0,1.0
+1,Australia,Lewis Hamilton,HAM,Ferrari,7.0,4.0,Finished,,12.0,3.0,1.0
+1,Australia,Lando Norris,NOR,McLaren,6.0,5.0,Finished,,10.0,1.0,2.0
+1,Australia,Max Verstappen,VER,Red Bull,20.0,6.0,Finished,,8.0,14.0,2.0
+1,Australia,Oliver Bearman,BEA,Haas,12.0,7.0,Finished,,6.0,5.0,1.0
+1,Australia,Arvid Lindblad,LIN,Racing Bulls,9.0,8.0,Finished,,4.0,1.0,1.0
+1,Australia,Gabriel Bortoleto,BOR,Audi,10.0,9.0,Finished,,2.0,1.0,2.0
+1,Australia,Pierre Gasly,GAS,Alpine,14.0,10.0,Finished,,1.0,4.0,1.0
+1,Australia,Esteban Ocon,OCO,Haas,13.0,11.0,Finished,,0.0,2.0,1.0
+1,Australia,Alexander Albon,ALB,Williams,15.0,12.0,Finished,,0.0,3.0,2.0
+1,Australia,Liam Lawson,LAW,Racing Bulls,8.0,13.0,Finished,,0.0,-5.0,2.0
+1,Australia,Franco Colapinto,COL,Alpine,16.0,14.0,Finished,,0.0,2.0,2.0
+1,Australia,Carlos Sainz Jr.,SAI,Williams,21.0,15.0,Finished,,0.0,6.0,3.0
+1,Australia,Sergio Pérez,PER,Cadillac,18.0,16.0,Finished,,0.0,2.0,2.0
+1,Australia,Lance Stroll,STR,Aston Martin,22.0,,NC,,0.0,,3.0
+1,Australia,Fernando Alonso,ALO,Aston Martin,17.0,,DNF,Mechanical,0.0,,1.0
+1,Australia,Valtteri Bottas,BOT,Cadillac,19.0,,DNF,Fuel system,0.0,,1.0
+1,Australia,Isack Hadjar,HAD,Red Bull,3.0,,DNF,Engine,0.0,,0.0
+1,Australia,Oscar Piastri,PIA,McLaren,5.0,,DNS,Accident,0.0,,0.0
+1,Australia,Nico Hülkenberg,HUL,Audi,11.0,,DNS,Hydraulics,0.0,,0.0
+2,China,Kimi Antonelli,ANT,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+2,China,George Russell,RUS,Mercedes,2.0,2.0,Finished,,18.0,0.0,1.0
+2,China,Lewis Hamilton,HAM,Ferrari,3.0,3.0,Finished,,15.0,0.0,1.0
+2,China,Charles Leclerc,LEC,Ferrari,4.0,4.0,Finished,,12.0,0.0,1.0
+2,China,Oliver Bearman,BEA,Haas,10.0,5.0,Finished,,10.0,5.0,1.0
+2,China,Pierre Gasly,GAS,Alpine,7.0,6.0,Finished,,8.0,1.0,1.0
+2,China,Liam Lawson,LAW,Racing Bulls,14.0,7.0,Finished,,6.0,7.0,1.0
+2,China,Isack Hadjar,HAD,Red Bull,9.0,8.0,Finished,,4.0,1.0,2.0
+2,China,Carlos Sainz Jr.,SAI,Williams,17.0,9.0,Finished,,2.0,8.0,1.0
+2,China,Franco Colapinto,COL,Alpine,12.0,10.0,Finished,,1.0,2.0,1.0
+2,China,Nico Hülkenberg,HUL,Audi,11.0,11.0,Finished,,0.0,0.0,1.0
+2,China,Arvid Lindblad,LIN,Racing Bulls,15.0,12.0,Finished,,0.0,3.0,1.0
+2,China,Valtteri Bottas,BOT,Cadillac,19.0,13.0,Finished,,0.0,6.0,1.0
+2,China,Esteban Ocon,OCO,Haas,13.0,14.0,Finished,,0.0,-1.0,2.0
+2,China,Sergio Pérez,PER,Cadillac,21.0,15.0,Finished,,0.0,6.0,1.0
+2,China,Max Verstappen,VER,Red Bull,8.0,,DNF,Coolant leak,0.0,,1.0
+2,China,Fernando Alonso,ALO,Aston Martin,18.0,,DNF,Vibrations,0.0,,1.0
+2,China,Lance Stroll,STR,Aston Martin,20.0,,DNF,Battery,0.0,,0.0
+2,China,Oscar Piastri,PIA,McLaren,5.0,,DNS,Electrical,0.0,,0.0
+2,China,Lando Norris,NOR,McLaren,6.0,,DNS,Electrical,0.0,,0.0
+2,China,Gabriel Bortoleto,BOR,Audi,16.0,,DNS,Hydraulics,0.0,,0.0
+2,China,Alexander Albon,ALB,Williams,22.0,,DNS,Hydraulics,0.0,,0.0
+3,Japan,Kimi Antonelli,ANT,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+3,Japan,Oscar Piastri,PIA,McLaren,3.0,2.0,Finished,,18.0,1.0,1.0
+3,Japan,Charles Leclerc,LEC,Ferrari,4.0,3.0,Finished,,15.0,1.0,1.0
+3,Japan,George Russell,RUS,Mercedes,2.0,4.0,Finished,,12.0,-2.0,1.0
+3,Japan,Lando Norris,NOR,McLaren,5.0,5.0,Finished,,10.0,0.0,1.0
+3,Japan,Lewis Hamilton,HAM,Ferrari,6.0,6.0,Finished,,8.0,0.0,1.0
+3,Japan,Pierre Gasly,GAS,Alpine,7.0,7.0,Finished,,6.0,0.0,1.0
+3,Japan,Max Verstappen,VER,Red Bull,11.0,8.0,Finished,,4.0,3.0,1.0
+3,Japan,Liam Lawson,LAW,Racing Bulls,14.0,9.0,Finished,,2.0,5.0,1.0
+3,Japan,Esteban Ocon,OCO,Haas,12.0,10.0,Finished,,1.0,2.0,1.0
+3,Japan,Nico Hülkenberg,HUL,Audi,13.0,11.0,Finished,,0.0,2.0,1.0
+3,Japan,Isack Hadjar,HAD,Red Bull,8.0,12.0,Finished,,0.0,-4.0,1.0
+3,Japan,Gabriel Bortoleto,BOR,Audi,9.0,13.0,Finished,,0.0,-4.0,1.0
+3,Japan,Arvid Lindblad,LIN,Racing Bulls,10.0,14.0,Finished,,0.0,-4.0,1.0
+3,Japan,Carlos Sainz Jr.,SAI,Williams,16.0,15.0,Finished,,0.0,1.0,1.0
+3,Japan,Franco Colapinto,COL,Alpine,15.0,16.0,Finished,,0.0,-1.0,1.0
+3,Japan,Sergio Pérez,PER,Cadillac,19.0,17.0,Finished,,0.0,2.0,1.0
+3,Japan,Fernando Alonso,ALO,Aston Martin,21.0,18.0,Finished,,0.0,3.0,2.0
+3,Japan,Valtteri Bottas,BOT,Cadillac,20.0,19.0,Finished,,0.0,1.0,1.0
+3,Japan,Alexander Albon,ALB,Williams,17.0,20.0,Finished,,0.0,-3.0,3.0
+3,Japan,Lance Stroll,STR,Aston Martin,22.0,,DNF,Mechanical,0.0,,2.0
+3,Japan,Oliver Bearman,BEA,Haas,18.0,,DNF,Accident,0.0,,1.0
+4,Miami,Kimi Antonelli,ANT,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+4,Miami,Lando Norris,NOR,McLaren,4.0,2.0,Finished,,18.0,2.0,1.0
+4,Miami,Oscar Piastri,PIA,McLaren,7.0,3.0,Finished,,15.0,4.0,1.0
+4,Miami,George Russell,RUS,Mercedes,5.0,4.0,Finished,,12.0,1.0,1.0
+4,Miami,Max Verstappen,VER,Red Bull,2.0,5.0,Finished,,10.0,-3.0,1.0
+4,Miami,Lewis Hamilton,HAM,Ferrari,6.0,6.0,Finished,,8.0,0.0,1.0
+4,Miami,Franco Colapinto,COL,Alpine,8.0,7.0,Finished,,6.0,1.0,1.0
+4,Miami,Charles Leclerc,LEC,Ferrari,3.0,8.0,Finished,,4.0,-5.0,1.0
+4,Miami,Carlos Sainz Jr.,SAI,Williams,13.0,9.0,Finished,,2.0,4.0,1.0
+4,Miami,Alexander Albon,ALB,Williams,15.0,10.0,Finished,,1.0,5.0,1.0
+4,Miami,Oliver Bearman,BEA,Haas,12.0,11.0,Finished,,0.0,1.0,1.0
+4,Miami,Gabriel Bortoleto,BOR,Audi,21.0,12.0,Finished,,0.0,9.0,1.0
+4,Miami,Esteban Ocon,OCO,Haas,14.0,13.0,Finished,,0.0,1.0,1.0
+4,Miami,Arvid Lindblad,LIN,Racing Bulls,16.0,14.0,Finished,,0.0,2.0,1.0
+4,Miami,Fernando Alonso,ALO,Aston Martin,17.0,15.0,Finished,,0.0,2.0,1.0
+4,Miami,Sergio Pérez,PER,Cadillac,20.0,16.0,Finished,,0.0,4.0,1.0
+4,Miami,Lance Stroll,STR,Aston Martin,18.0,17.0,Finished,,0.0,1.0,2.0
+4,Miami,Valtteri Bottas,BOT,Cadillac,19.0,18.0,Finished,,0.0,1.0,2.0
+4,Miami,Nico Hülkenberg,HUL,Audi,10.0,,DNF,Overheating,0.0,,1.0
+4,Miami,Liam Lawson,LAW,Racing Bulls,11.0,,DNF,Gearbox,0.0,,0.0
+4,Miami,Pierre Gasly,GAS,Alpine,9.0,,DNF,Collision,0.0,,0.0
+4,Miami,Isack Hadjar,HAD,Red Bull,22.0,,DNF,Accident,0.0,,0.0
+5,Canada,Kimi Antonelli,ANT,Mercedes,2.0,1.0,Finished,,25.0,1.0,1.0
+5,Canada,Lewis Hamilton,HAM,Ferrari,5.0,2.0,Finished,,18.0,3.0,1.0
+5,Canada,Max Verstappen,VER,Red Bull,6.0,3.0,Finished,,15.0,3.0,1.0
+5,Canada,Charles Leclerc,LEC,Ferrari,8.0,4.0,Finished,,12.0,4.0,1.0
+5,Canada,Isack Hadjar,HAD,Red Bull,7.0,5.0,Finished,,10.0,2.0,1.0
+5,Canada,Franco Colapinto,COL,Alpine,10.0,6.0,Finished,,8.0,4.0,1.0
+5,Canada,Liam Lawson,LAW,Racing Bulls,12.0,7.0,Finished,,6.0,5.0,1.0
+5,Canada,Pierre Gasly,GAS,Alpine,14.0,8.0,Finished,,4.0,6.0,1.0
+5,Canada,Carlos Sainz Jr.,SAI,Williams,15.0,9.0,Finished,,2.0,6.0,1.0
+5,Canada,Oliver Bearman,BEA,Haas,16.0,10.0,Finished,,1.0,6.0,0.0
+5,Canada,Oscar Piastri,PIA,McLaren,4.0,11.0,Finished,,0.0,-7.0,3.0
+5,Canada,Nico Hülkenberg,HUL,Audi,11.0,12.0,Finished,,0.0,-1.0,2.0
+5,Canada,Gabriel Bortoleto,BOR,Audi,13.0,13.0,Finished,,0.0,0.0,2.0
+5,Canada,Esteban Ocon,OCO,Haas,17.0,14.0,Finished,,0.0,3.0,2.0
+5,Canada,Lance Stroll,STR,Aston Martin,22.0,15.0,Finished,,0.0,7.0,2.0
+5,Canada,Valtteri Bottas,BOT,Cadillac,21.0,16.0,Finished,,0.0,5.0,4.0
+5,Canada,Sergio Pérez,PER,Cadillac,20.0,,DNF,Suspension,0.0,,3.0
+5,Canada,Lando Norris,NOR,McLaren,3.0,,DNF,Gearbox,0.0,,2.0
+5,Canada,George Russell,RUS,Mercedes,1.0,,DNF,Engine,0.0,,0.0
+5,Canada,Fernando Alonso,ALO,Aston Martin,19.0,,DNF,Broken seat,0.0,,1.0
+5,Canada,Alexander Albon,ALB,Williams,18.0,,DNF,Collision,0.0,,0.0
+5,Canada,Arvid Lindblad,LIN,Racing Bulls,9.0,,DNS,Gearbox,0.0,,0.0
+6,Monaco,Kimi Antonelli,ANT,Mercedes,1.0,1.0,Finished,,25.0,0.0,2.0
+6,Monaco,Lewis Hamilton,HAM,Ferrari,3.0,2.0,Finished,,18.0,1.0,2.0
+6,Monaco,Isack Hadjar,HAD,Red Bull,5.0,3.0,Finished,,15.0,2.0,1.0
+6,Monaco,Oscar Piastri,PIA,McLaren,7.0,4.0,Finished,,12.0,3.0,2.0
+6,Monaco,Liam Lawson,LAW,Racing Bulls,10.0,5.0,Finished,,10.0,5.0,1.0
+6,Monaco,Arvid Lindblad,LIN,Racing Bulls,15.0,6.0,Finished,,8.0,9.0,0.0
+6,Monaco,Pierre Gasly,GAS,Alpine,9.0,7.0,Finished,,6.0,2.0,1.0
+6,Monaco,Alexander Albon,ALB,Williams,11.0,8.0,Finished,,4.0,3.0,1.0
+6,Monaco,Esteban Ocon,OCO,Haas,17.0,9.0,Finished,,2.0,8.0,1.0
+6,Monaco,Fernando Alonso,ALO,Aston Martin,21.0,10.0,Finished,,1.0,11.0,2.0
+6,Monaco,Gabriel Bortoleto,BOR,Audi,22.0,11.0,Finished,,0.0,11.0,3.0
+6,Monaco,George Russell,RUS,Mercedes,6.0,12.0,Finished,,0.0,-6.0,2.0
+6,Monaco,Nico Hülkenberg,HUL,Audi,13.0,13.0,Finished,,0.0,0.0,1.0
+6,Monaco,Franco Colapinto,COL,Alpine,14.0,14.0,Finished,,0.0,0.0,1.0
+6,Monaco,Sergio Pérez,PER,Cadillac,18.0,15.0,Finished,,0.0,3.0,2.0
+6,Monaco,Carlos Sainz Jr.,SAI,Williams,12.0,16.0,Finished,Collision damage,0.0,-4.0,1.0
+6,Monaco,Charles Leclerc,LEC,Ferrari,4.0,,DNF,Accident,0.0,,2.0
+6,Monaco,Lance Stroll,STR,Aston Martin,22.0,,DNF,Accident,0.0,,1.0
+6,Monaco,Lando Norris,NOR,McLaren,8.0,,DNF,Battery,0.0,,0.0
+6,Monaco,Oliver Bearman,BEA,Haas,19.0,,DNF,Brakes,0.0,,1.0
+6,Monaco,Valtteri Bottas,BOT,Cadillac,20.0,,DNF,Brakes,0.0,,1.0
+6,Monaco,Max Verstappen,VER,Red Bull,2.0,,DNF,Engine,0.0,,0.0
+7,Barcelona-Catalunya,Lewis Hamilton,HAM,Ferrari,2.0,1.0,Finished,,25.0,1.0,3.0
+7,Barcelona-Catalunya,George Russell,RUS,Mercedes,1.0,2.0,Finished,,18.0,-1.0,2.0
+7,Barcelona-Catalunya,Lando Norris,NOR,McLaren,4.0,3.0,Finished,,15.0,1.0,2.0
+7,Barcelona-Catalunya,Max Verstappen,VER,Red Bull,5.0,4.0,Finished,,12.0,1.0,3.0
+7,Barcelona-Catalunya,Oscar Piastri,PIA,McLaren,7.0,5.0,Finished,,10.0,2.0,2.0
+7,Barcelona-Catalunya,Isack Hadjar,HAD,Red Bull,6.0,6.0,Finished,,8.0,0.0,3.0
+7,Barcelona-Catalunya,Pierre Gasly,GAS,Alpine,14.0,7.0,Finished,,6.0,7.0,2.0
+7,Barcelona-Catalunya,Liam Lawson,LAW,Racing Bulls,8.0,8.0,Finished,,4.0,0.0,2.0
+7,Barcelona-Catalunya,Arvid Lindblad,LIN,Racing Bulls,11.0,9.0,Finished,,2.0,2.0,2.0
+7,Barcelona-Catalunya,Franco Colapinto,COL,Alpine,13.0,10.0,Finished,,1.0,3.0,2.0
+7,Barcelona-Catalunya,Gabriel Bortoleto,BOR,Audi,12.0,11.0,Finished,,0.0,1.0,3.0
+7,Barcelona-Catalunya,Carlos Sainz Jr.,SAI,Williams,16.0,12.0,Finished,,0.0,4.0,3.0
+7,Barcelona-Catalunya,Esteban Ocon,OCO,Haas,17.0,13.0,Finished,,0.0,4.0,3.0
+7,Barcelona-Catalunya,Sergio Pérez,PER,Cadillac,19.0,14.0,Finished,,0.0,5.0,3.0
+7,Barcelona-Catalunya,Charles Leclerc,LEC,Ferrari,10.0,15.0,Finished,Hydraulics,0.0,-5.0,2.0
+7,Barcelona-Catalunya,Kimi Antonelli,ANT,Mercedes,3.0,16.0,Finished,Electrical,0.0,-13.0,2.0
+7,Barcelona-Catalunya,Oliver Bearman,BEA,Haas,15.0,17.0,Finished,Engine,0.0,-2.0,2.0
+7,Barcelona-Catalunya,Alexander Albon,ALB,Williams,18.0,,NC,,0.0,,3.0
+7,Barcelona-Catalunya,Fernando Alonso,ALO,Aston Martin,22.0,,DNF,Battery,0.0,,1.0
+7,Barcelona-Catalunya,Nico Hülkenberg,HUL,Audi,9.0,,DNF,Safety switch,0.0,,1.0
+7,Barcelona-Catalunya,Valtteri Bottas,BOT,Cadillac,20.0,,DNF,Overheating,0.0,,1.0
+7,Barcelona-Catalunya,Lance Stroll,STR,Aston Martin,21.0,,DNF,Gearbox,0.0,,0.0
+8,Austria,George Russell,RUS,Mercedes,1.0,1.0,Finished,,25.0,0.0,2.0
+8,Austria,Max Verstappen,VER,Red Bull,5.0,2.0,Finished,,18.0,3.0,2.0
+8,Austria,Kimi Antonelli,ANT,Mercedes,4.0,3.0,Finished,,15.0,1.0,2.0
+8,Austria,Oscar Piastri,PIA,McLaren,7.0,4.0,Finished,,12.0,3.0,2.0
+8,Austria,Lewis Hamilton,HAM,Ferrari,3.0,5.0,Finished,,10.0,-2.0,3.0
+8,Austria,Isack Hadjar,HAD,Red Bull,8.0,6.0,Finished,,8.0,2.0,2.0
+8,Austria,Lando Norris,NOR,McLaren,6.0,7.0,Finished,,6.0,-1.0,2.0
+8,Austria,Charles Leclerc,LEC,Ferrari,2.0,8.0,Finished,,4.0,-6.0,3.0
+8,Austria,Liam Lawson,LAW,Racing Bulls,9.0,9.0,Finished,,2.0,0.0,2.0
+8,Austria,Arvid Lindblad,LIN,Racing Bulls,10.0,10.0,Finished,,1.0,0.0,2.0
+8,Austria,Gabriel Bortoleto,BOR,Audi,12.0,11.0,Finished,,0.0,1.0,2.0
+8,Austria,Nico Hülkenberg,HUL,Audi,14.0,12.0,Finished,,0.0,2.0,2.0
+8,Austria,Pierre Gasly,GAS,Alpine,11.0,13.0,Finished,,0.0,-2.0,3.0
+8,Austria,Oliver Bearman,BEA,Haas,13.0,14.0,Finished,,0.0,-1.0,2.0
+8,Austria,Franco Colapinto,COL,Alpine,16.0,15.0,Finished,,0.0,1.0,2.0
+8,Austria,Esteban Ocon,OCO,Haas,15.0,16.0,Finished,,0.0,-1.0,2.0
+8,Austria,Alexander Albon,ALB,Williams,18.0,17.0,Finished,,0.0,1.0,2.0
+8,Austria,Fernando Alonso,ALO,Aston Martin,21.0,18.0,Finished,,0.0,3.0,2.0
+8,Austria,Lance Stroll,STR,Aston Martin,22.0,,DNF,Electrical,0.0,,1.0
+8,Austria,Carlos Sainz Jr.,SAI,Williams,17.0,,DNF,Electrical,0.0,,1.0
+8,Austria,Sergio Pérez,PER,Cadillac,19.0,,DNF,Brakes,0.0,,0.0
+8,Austria,Valtteri Bottas,BOT,Cadillac,20.0,,DNF,Brakes,0.0,,0.0
+9,Great Britain,Charles Leclerc,LEC,Ferrari,2.0,1.0,Finished,,25.0,1.0,2.0
+9,Great Britain,George Russell,RUS,Mercedes,4.0,2.0,Finished,,18.0,2.0,2.0
+9,Great Britain,Lewis Hamilton,HAM,Ferrari,3.0,3.0,Finished,,15.0,0.0,2.0
+9,Great Britain,Lando Norris,NOR,McLaren,6.0,4.0,Finished,,12.0,2.0,3.0
+9,Great Britain,Isack Hadjar,HAD,Red Bull,5.0,5.0,Finished,,10.0,0.0,2.0
+9,Great Britain,Liam Lawson,LAW,Racing Bulls,10.0,6.0,Finished,,8.0,4.0,2.0
+9,Great Britain,Arvid Lindblad,LIN,Racing Bulls,9.0,7.0,Finished,,6.0,2.0,2.0
+9,Great Britain,Gabriel Bortoleto,BOR,Audi,11.0,8.0,Finished,,4.0,3.0,2.0
+9,Great Britain,Franco Colapinto,COL,Alpine,19.0,9.0,Finished,,2.0,10.0,2.0
+9,Great Britain,Pierre Gasly,GAS,Alpine,15.0,10.0,Finished,,1.0,5.0,2.0
+9,Great Britain,Oscar Piastri,PIA,McLaren,8.0,11.0,Finished,,0.0,-3.0,3.0
+9,Great Britain,Oliver Bearman,BEA,Haas,13.0,12.0,Finished,,0.0,1.0,2.0
+9,Great Britain,Esteban Ocon,OCO,Haas,17.0,13.0,Finished,,0.0,4.0,2.0
+9,Great Britain,Sergio Pérez,PER,Cadillac,20.0,14.0,Finished,,0.0,6.0,2.0
+9,Great Britain,Kimi Antonelli,ANT,Mercedes,1.0,15.0,Finished,,0.0,-14.0,3.0
+9,Great Britain,Valtteri Bottas,BOT,Cadillac,18.0,16.0,Finished,,0.0,2.0,2.0
+9,Great Britain,Carlos Sainz Jr.,SAI,Williams,14.0,17.0,Finished,,0.0,-3.0,2.0
+9,Great Britain,Fernando Alonso,ALO,Aston Martin,22.0,18.0,Finished,,0.0,4.0,2.0
+9,Great Britain,Lance Stroll,STR,Aston Martin,22.0,19.0,Finished,,0.0,3.0,2.0
+9,Great Britain,Max Verstappen,VER,Red Bull,7.0,20.0,Finished,Spun off,0.0,-13.0,2.0
+9,Great Britain,Alexander Albon,ALB,Williams,16.0,,DNF,Collision damage,0.0,,5.0
+9,Great Britain,Nico Hülkenberg,HUL,Audi,12.0,,DNF,Gearbox,0.0,,2.0
+10,Belgium,Kimi Antonelli,ANT,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+10,Belgium,Charles Leclerc,LEC,Ferrari,4.0,2.0,Finished,,18.0,2.0,1.0
+10,Belgium,Max Verstappen,VER,Red Bull,2.0,3.0,Finished,,15.0,-1.0,1.0
+10,Belgium,Lewis Hamilton,HAM,Ferrari,5.0,4.0,Finished,,12.0,1.0,1.0
+10,Belgium,Oscar Piastri,PIA,McLaren,6.0,5.0,Finished,,10.0,1.0,1.0
+10,Belgium,Isack Hadjar,HAD,Red Bull,21.0,6.0,Finished,,8.0,15.0,3.0
+10,Belgium,Lando Norris,NOR,McLaren,13.0,7.0,Finished,,6.0,6.0,1.0
+10,Belgium,Gabriel Bortoleto,BOR,Audi,8.0,8.0,Finished,,4.0,0.0,1.0
+10,Belgium,Arvid Lindblad,LIN,Racing Bulls,7.0,9.0,Finished,,2.0,-2.0,1.0
+10,Belgium,Franco Colapinto,COL,Alpine,11.0,10.0,Finished,,1.0,1.0,1.0
+10,Belgium,Pierre Gasly,GAS,Alpine,10.0,11.0,Finished,,0.0,-1.0,1.0
+10,Belgium,Liam Lawson,LAW,Racing Bulls,9.0,12.0,Finished,,0.0,-3.0,1.0
+10,Belgium,Nico Hülkenberg,HUL,Audi,12.0,13.0,Finished,,0.0,-1.0,1.0
+10,Belgium,Oliver Bearman,BEA,Haas,14.0,14.0,Finished,,0.0,0.0,2.0
+10,Belgium,Alexander Albon,ALB,Williams,15.0,15.0,Finished,,0.0,0.0,1.0
+10,Belgium,Carlos Sainz Jr.,SAI,Williams,19.0,16.0,Finished,,0.0,3.0,1.0
+10,Belgium,Esteban Ocon,OCO,Haas,16.0,17.0,Finished,,0.0,-1.0,2.0
+10,Belgium,Valtteri Bottas,BOT,Cadillac,17.0,18.0,Finished,,0.0,-1.0,2.0
+10,Belgium,Fernando Alonso,ALO,Aston Martin,22.0,19.0,Finished,,0.0,3.0,2.0
+10,Belgium,Lance Stroll,STR,Aston Martin,20.0,,DNF,Gearbox,0.0,,1.0
+10,Belgium,Sergio Pérez,PER,Cadillac,18.0,,DNF,Suspension,0.0,,2.0
+10,Belgium,George Russell,RUS,Mercedes,3.0,,DNF,Collision,0.0,,0.0
+11,Hungary,Lando Norris,NOR,McLaren,1.0,1.0,Finished,,25.0,0.0,3.0
+11,Hungary,Max Verstappen,VER,Red Bull,4.0,2.0,Finished,,18.0,2.0,2.0
+11,Hungary,Kimi Antonelli,ANT,Mercedes,7.0,3.0,Finished,,15.0,4.0,1.0
+11,Hungary,Charles Leclerc,LEC,Ferrari,2.0,4.0,Finished,,12.0,-2.0,3.0
+11,Hungary,Lewis Hamilton,HAM,Ferrari,5.0,5.0,Finished,,10.0,0.0,3.0
+11,Hungary,Isack Hadjar,HAD,Red Bull,8.0,6.0,Finished,,8.0,2.0,2.0
+11,Hungary,George Russell,RUS,Mercedes,6.0,7.0,Finished,,6.0,-1.0,2.0
+11,Hungary,Liam Lawson,LAW,Racing Bulls,11.0,8.0,Finished,,4.0,3.0,2.0
+11,Hungary,Nico Hülkenberg,HUL,Audi,10.0,9.0,Finished,,2.0,1.0,2.0
+11,Hungary,Arvid Lindblad,LIN,Racing Bulls,9.0,10.0,Finished,,1.0,-1.0,1.0
+11,Hungary,Gabriel Bortoleto,BOR,Audi,14.0,11.0,Finished,,0.0,3.0,1.0
+11,Hungary,Pierre Gasly,GAS,Alpine,12.0,12.0,Finished,,0.0,0.0,3.0
+11,Hungary,Lance Stroll,STR,Aston Martin,20.0,13.0,Finished,,0.0,7.0,2.0
+11,Hungary,Fernando Alonso,ALO,Aston Martin,16.0,14.0,Finished,,0.0,2.0,2.0
+11,Hungary,Franco Colapinto,COL,Alpine,13.0,15.0,Finished,,0.0,-2.0,2.0
+11,Hungary,Esteban Ocon,OCO,Haas,15.0,16.0,Finished,,0.0,-1.0,2.0
+11,Hungary,Alexander Albon,ALB,Williams,19.0,17.0,Finished,,0.0,2.0,2.0
+11,Hungary,Carlos Sainz Jr.,SAI,Williams,18.0,18.0,Finished,,0.0,0.0,3.0
+11,Hungary,Oliver Bearman,BEA,Haas,17.0,19.0,Finished,,0.0,-2.0,2.0
+11,Hungary,Oscar Piastri,PIA,McLaren,3.0,,DNF,Gearbox,0.0,,2.0
+11,Hungary,Sergio Pérez,PER,Cadillac,22.0,,DNF,Suspension,0.0,,2.0
+11,Hungary,Valtteri Bottas,BOT,Cadillac,21.0,,DNF,Brakes,0.0,,0.0
+12,Netherlands,Lando Norris,NOR,McLaren,1.0,1.0,Finished,,25.0,0.0,2.0
+12,Netherlands,Kimi Antonelli,ANT,Mercedes,3.0,2.0,Finished,,18.0,1.0,3.0
+12,Netherlands,George Russell,RUS,Mercedes,2.0,3.0,Finished,,15.0,-1.0,2.0
+12,Netherlands,Lewis Hamilton,HAM,Ferrari,5.0,4.0,Finished,,12.0,1.0,2.0
+12,Netherlands,Charles Leclerc,LEC,Ferrari,6.0,5.0,Finished,,10.0,1.0,3.0
+12,Netherlands,Oscar Piastri,PIA,McLaren,4.0,6.0,Finished,,8.0,-2.0,3.0
+12,Netherlands,Liam Lawson,LAW,Red Bull,8.0,7.0,Finished,,6.0,1.0,2.0
+12,Netherlands,Nico Hülkenberg,HUL,Audi,13.0,8.0,Finished,,4.0,5.0,2.0
+12,Netherlands,Fernando Alonso,ALO,Aston Martin,18.0,9.0,Finished,,2.0,9.0,1.0
+12,Netherlands,Pierre Gasly,GAS,Alpine,11.0,10.0,Finished,,1.0,1.0,2.0
+12,Netherlands,Yuki Tsunoda,TSU,Racing Bulls,12.0,11.0,Finished,,0.0,1.0,2.0
+12,Netherlands,Arvid Lindblad,LIN,Racing Bulls,10.0,12.0,Finished,,0.0,-2.0,1.0
+12,Netherlands,Gabriel Bortoleto,BOR,Audi,9.0,13.0,Finished,,0.0,-4.0,3.0
+12,Netherlands,Franco Colapinto,COL,Alpine,14.0,14.0,Finished,,0.0,0.0,2.0
+12,Netherlands,Sergio Pérez,PER,Cadillac,22.0,15.0,Finished,,0.0,7.0,2.0
+12,Netherlands,Carlos Sainz Jr.,SAI,Williams,17.0,16.0,Finished,,0.0,1.0,2.0
+12,Netherlands,Alexander Albon,ALB,Williams,16.0,17.0,Finished,Collision damage,0.0,-1.0,2.0
+12,Netherlands,Valtteri Bottas,BOT,Cadillac,21.0,,DNF,Hydraulics,0.0,,2.0
+12,Netherlands,Esteban Ocon,OCO,Haas,15.0,,DNF,Engine,0.0,,2.0
+12,Netherlands,Lance Stroll,STR,Aston Martin,19.0,,DNF,Handling,0.0,,2.0
+12,Netherlands,Oliver Bearman,BEA,Haas,20.0,,DNF,Engine,0.0,,0.0
+12,Netherlands,Max Verstappen,VER,Red Bull,7.0,,DNF,Accident,0.0,,0.0
+13,Italy,Kimi Antonelli,ANT,Mercedes,19.0,1.0,Finished,,25.0,18.0,2.0
+13,Italy,George Russell,RUS,Mercedes,2.0,2.0,Finished,,18.0,0.0,0.0
+13,Italy,Max Verstappen,VER,Red Bull,5.0,3.0,Finished,,15.0,2.0,2.0
+13,Italy,Lando Norris,NOR,McLaren,8.0,4.0,Finished,,12.0,4.0,0.0
+13,Italy,Oscar Piastri,PIA,McLaren,6.0,5.0,Finished,,10.0,1.0,0.0
+13,Italy,Lewis Hamilton,HAM,Ferrari,4.0,6.0,Finished,,8.0,-2.0,0.0
+13,Italy,Pierre Gasly,GAS,Alpine,1.0,7.0,Finished,,6.0,-6.0,0.0
+13,Italy,Arvid Lindblad,LIN,Racing Bulls,9.0,8.0,Finished,,4.0,1.0,0.0
+13,Italy,Franco Colapinto,COL,Alpine,7.0,9.0,Finished,,2.0,-2.0,0.0
+13,Italy,Yuki Tsunoda,TSU,Racing Bulls,15.0,10.0,Finished,,1.0,5.0,0.0
+13,Italy,Gabriel Bortoleto,BOR,Audi,10.0,11.0,Finished,,0.0,-1.0,0.0
+13,Italy,Nico Hülkenberg,HUL,Audi,12.0,12.0,Finished,,0.0,0.0,2.0
+13,Italy,Carlos Sainz Jr.,SAI,Williams,13.0,13.0,Finished,,0.0,0.0,2.0
+13,Italy,Liam Lawson,LAW,Red Bull,22.0,14.0,Finished,,0.0,8.0,2.0
+13,Italy,Oliver Bearman,BEA,Haas,11.0,15.0,Finished,,0.0,-4.0,0.0
+13,Italy,Esteban Ocon,OCO,Haas,14.0,16.0,Finished,,0.0,-2.0,2.0
+13,Italy,Alexander Albon,ALB,Williams,20.0,17.0,Finished,,0.0,3.0,2.0
+13,Italy,Sergio Pérez,PER,Cadillac,17.0,18.0,Finished,,0.0,-1.0,2.0
+13,Italy,Valtteri Bottas,BOT,Cadillac,16.0,19.0,Finished,,0.0,-3.0,2.0
+13,Italy,Lance Stroll,STR,Aston Martin,18.0,,DNF,Hydraulics,0.0,,0.0
+13,Italy,Fernando Alonso,ALO,Aston Martin,22.0,,DNF,Mechanical,0.0,,0.0
+13,Italy,Charles Leclerc,LEC,Ferrari,3.0,,DNF,Accident,0.0,,0.0
+14,Spain,Kimi Antonelli,ANT,Mercedes,2.0,1.0,Finished,,25.0,1.0,1.0
+14,Spain,Max Verstappen,VER,Red Bull,3.0,2.0,Finished,,18.0,1.0,1.0
+14,Spain,Lando Norris,NOR,McLaren,1.0,3.0,Finished,,15.0,-2.0,1.0
+14,Spain,Charles Leclerc,LEC,Ferrari,5.0,4.0,Finished,,12.0,1.0,1.0
+14,Spain,George Russell,RUS,Mercedes,6.0,5.0,Finished,,10.0,1.0,2.0
+14,Spain,Liam Lawson,LAW,Red Bull,8.0,6.0,Finished,,8.0,2.0,1.0
+14,Spain,Franco Colapinto,COL,Alpine,9.0,7.0,Finished,,6.0,2.0,1.0
+14,Spain,Oscar Piastri,PIA,McLaren,7.0,8.0,Finished,,4.0,-1.0,1.0
+14,Spain,Arvid Lindblad,LIN,Racing Bulls,10.0,9.0,Finished,,2.0,1.0,1.0
+14,Spain,Nico Hülkenberg,HUL,Audi,11.0,10.0,Finished,,1.0,1.0,1.0
+14,Spain,Esteban Ocon,OCO,Haas,13.0,11.0,Finished,,0.0,2.0,1.0
+14,Spain,Pierre Gasly,GAS,Alpine,14.0,12.0,Finished,,0.0,2.0,1.0
+14,Spain,Gabriel Bortoleto,BOR,Audi,12.0,13.0,Finished,,0.0,-1.0,1.0
+14,Spain,Yuki Tsunoda,TSU,Racing Bulls,15.0,14.0,Finished,,0.0,1.0,1.0
+14,Spain,Alexander Albon,ALB,Williams,16.0,15.0,Finished,,0.0,1.0,1.0
+14,Spain,Oliver Bearman,BEA,Haas,22.0,16.0,Finished,,0.0,6.0,2.0
+14,Spain,Fernando Alonso,ALO,Aston Martin,17.0,17.0,Finished,,0.0,0.0,2.0
+14,Spain,Valtteri Bottas,BOT,Cadillac,19.0,18.0,Finished,,0.0,1.0,2.0
+14,Spain,Carlos Sainz Jr.,SAI,Williams,20.0,,DNF,Collision damage,0.0,,2.0
+14,Spain,Sergio Pérez,PER,Cadillac,18.0,,DNF,Water pressure,0.0,,1.0
+14,Spain,Lance Stroll,STR,Aston Martin,21.0,,DNF,Brakes,0.0,,0.0
+14,Spain,Lewis Hamilton,HAM,Ferrari,4.0,,DNF,Brakes,0.0,,0.0
+15,Azerbaijan,George Russell,RUS,Mercedes,1.0,1.0,Finished,,25.0,0.0,1.0
+15,Azerbaijan,Max Verstappen,VER,Red Bull,8.0,2.0,Finished,,18.0,6.0,1.0
+15,Azerbaijan,Isack Hadjar,HAD,Red Bull,4.0,3.0,Finished,,15.0,1.0,1.0
+15,Azerbaijan,Charles Leclerc,LEC,Ferrari,2.0,4.0,Finished,,12.0,-2.0,1.0
+15,Azerbaijan,Kimi Antonelli,ANT,Mercedes,16.0,5.0,Finished,,10.0,11.0,1.0
+15,Azerbaijan,Lewis Hamilton,HAM,Ferrari,6.0,6.0,Finished,,8.0,0.0,0.0
+15,Azerbaijan,Arvid Lindblad,LIN,Racing Bulls,15.0,7.0,Finished,,6.0,8.0,1.0
+15,Azerbaijan,Esteban Ocon,OCO,Haas,13.0,8.0,Finished,,4.0,5.0,1.0
+15,Azerbaijan,Oliver Bearman,BEA,Haas,10.0,9.0,Finished,,2.0,1.0,1.0
+15,Azerbaijan,Carlos Sainz Jr.,SAI,Williams,14.0,10.0,Finished,,1.0,4.0,2.0
+15,Azerbaijan,Nico Hülkenberg,HUL,Audi,18.0,11.0,Finished,,0.0,7.0,1.0
+15,Azerbaijan,Liam Lawson,LAW,Racing Bulls,11.0,12.0,Finished,,0.0,-1.0,2.0
+15,Azerbaijan,Oscar Piastri,PIA,McLaren,3.0,13.0,Finished,,0.0,-10.0,1.0
+15,Azerbaijan,Sergio Pérez,PER,Cadillac,20.0,14.0,Finished,,0.0,6.0,1.0
+15,Azerbaijan,Gabriel Bortoleto,BOR,Audi,17.0,15.0,Finished,,0.0,2.0,1.0
+15,Azerbaijan,Valtteri Bottas,BOT,Cadillac,19.0,16.0,Finished,Accident,0.0,3.0,1.0
+15,Azerbaijan,Franco Colapinto,COL,Alpine,9.0,,DNF,Collision damage,0.0,,1.0
+15,Azerbaijan,Pierre Gasly,GAS,Alpine,7.0,,DNF,Collision,0.0,,1.0
+15,Azerbaijan,Lando Norris,NOR,McLaren,5.0,,DNF,Collision,0.0,,1.0
+15,Azerbaijan,Alexander Albon,ALB,Williams,12.0,,DNF,Accident,0.0,,0.0
+15,Azerbaijan,Fernando Alonso,ALO,Aston Martin,21.0,,DNF,Water pressure,0.0,,0.0
+15,Azerbaijan,Lance Stroll,STR,Aston Martin,22.0,,DNF,Water pressure,0.0,,0.0
