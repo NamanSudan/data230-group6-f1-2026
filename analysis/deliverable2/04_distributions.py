@@ -1,7 +1,7 @@
 """Chapters 8 & 9 (Wilke, Fundamentals of Data Visualization): distributions.
 
-Run from analysis/:  python 04_distributions.py
-Reads the raw F1DB v2026.15.1 CSVs in data/raw/ and writes PNGs to figures/,
+Run from analysis/deliverable2/:  python 04_distributions.py
+Reads the raw F1DB v2026.15.1 CSVs in ../data/raw/ and writes PNGs to figures/,
 named ch8_*.png and ch9_*.png so they don't collide with the Lecture 4-5 figures.
 Each figure is sized in "slide pixels" (figsize = px / 100) and saved at
 dpi=200, so it renders sharp at 2x on a 1920x1080 slide.
@@ -16,7 +16,7 @@ import pandas as pd
 from scipy import stats
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE / "data" / "raw"
+DATA = HERE.parent / "data" / "raw"
 OUT = HERE / "figures"
 OUT.mkdir(exist_ok=True)
 

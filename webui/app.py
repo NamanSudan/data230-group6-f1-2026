@@ -13,7 +13,7 @@ import streamlit as st
 from scipy import stats
 
 ANALYSIS = Path(__file__).resolve().parent.parent / "analysis"
-sys.path.insert(0, str(ANALYSIS))
+sys.path.insert(0, str(ANALYSIS / "deliverable1"))
 from f1viz import OKABE_ITO, TOP4, GRAY, simulate  # noqa: E402
 
 CLEAN = ANALYSIS / "data" / "clean"
