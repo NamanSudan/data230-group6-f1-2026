@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-CLEAN = HERE / "data" / "clean"
+CLEAN = HERE.parent / "data" / "clean"
 FIGS = HERE / "figures"
 FIGS.mkdir(exist_ok=True)
 
